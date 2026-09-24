@@ -134,12 +134,14 @@ class _FaqScreenState extends State<FaqScreen> {
   }
 
   Widget _buildFaqTile(FaqItem faq) {
-    return Container(
-      decoration: BoxDecoration(
-        color: Colors.white,
+    return Material(
+      color: Colors.white,
+      borderRadius: BorderRadius.circular(16),
+      shape: RoundedRectangleBorder(
+        side: const BorderSide(color: AppColors.borderLight),
         borderRadius: BorderRadius.circular(16),
-        border: Border.all(color: AppColors.borderLight),
       ),
+      clipBehavior: Clip.antiAlias,
       child: Theme(
         data: Theme.of(context).copyWith(dividerColor: Colors.transparent),
         child: ExpansionTile(
