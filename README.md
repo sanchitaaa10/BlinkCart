@@ -6,6 +6,14 @@ A complete, production-grade quick-commerce e-commerce Flutter application inspi
 
 ---
 
+## 📸 App Screenshots
+
+| 🏠 Home Screen | 🗂️ Categories | 🔍 Search & Explore | 👤 Profile |
+| :---: | :---: | :---: | :---: |
+| <img src="screenshots/home_screen.png" width="220" alt="Home Screen"/> | <img src="screenshots/categories_screen.png" width="220" alt="Categories Screen"/> | <img src="screenshots/search_screen.png" width="220" alt="Search Screen"/> | <img src="screenshots/profile_screen.png" width="220" alt="Profile Screen"/> |
+
+---
+
 ## 📱 App Highlights & Features
 
 ### 1. ⚡ Ultra-Fast Quick-Commerce Experience
